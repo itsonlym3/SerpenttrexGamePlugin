@@ -71,12 +71,12 @@ class trexAPI(GameAPI):
 
         
         #return False if sprite_name == "SPRITE_CRASHED" else True
-        if sprite_name == "SPRITE_TREX_GAME_OVER": #tjb
-            print(f"## OVER") #tjb
-        else: #tjb
-            print(f"## NOT OVER NOT OVER") #tjb
+        # if sprite_name == "SPRITE_TREX_GAME_OVER": #tjb
+        #     print(f"## OVER") #tjb
+        # else: #tjb
+        #     print(f"## NOT OVER NOT OVER") #tjb
         
-        time.sleep(1) #tjb
+        # time.sleep(1) #tjb
         return False if sprite_name == "SPRITE_TREX_GAME_OVER" else True
 
     # class MyAPINamespace:
